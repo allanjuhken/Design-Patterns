@@ -1,2 +1,6 @@
-package creational.factory;public interface Shape {
+package creational.factory;
+
+public interface Shape {
+    void draw();
+    int calculateArea();
 }

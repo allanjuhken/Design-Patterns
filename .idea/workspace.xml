@@ -1,14 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4219ce6-4af1-40a0-b118-879c1c526f78" name="Changes" comment="" />
+    <list default="true" id="b4219ce6-4af1-40a0-b118-879c1c526f78" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/CoffeePurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/Cola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/ColaPurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/DrinkPurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/EmployeeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/CarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/GoldCarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/MiniCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/RacingCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/exercise/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/exercise/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/exercise/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/exercise/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/DeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/OrderFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/ProductAvailabilityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/ShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/builder/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/builder/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/builder/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/ShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/game/BoardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/game/BoardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/game/GameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/game/GameFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/game/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/game/PCGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/game/PCGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/prototype/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/prototype/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/prototype/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/prototype/ShapeCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/ShapeCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/prototype/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/singleton/SimpleSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/SimpleSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adapter/AviPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/AviPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adapter/Mp4Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/Mp4Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adapter/VlcPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/VlcPlayer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PYrBMOmG8U8E46hRvdhMNuc8Xs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,9 +87,102 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Academy/creationalTeacher",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="structural.facade" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Academy\Design-Patterns\src\main\java\structural\proxy" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="structural.adapter" />
+      <recent name="creational.prototype" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainMenu">
+    <configuration name="AdapterPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.adapter.adapter.AdapterPatternDemo" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.adapter.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.composite.EmployeeMain" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.flyweight.Main" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.flyweight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.exercise.MainMenu" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="structural.decorator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.decorator.Main" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainMenu" />
+        <item itemvalue="Application.EmployeeMain" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.structural.decorator.Main" />
+        <item itemvalue="Application.structural.adapter.AdapterPatternDemo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +193,16 @@
       <updated>1683644731803</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

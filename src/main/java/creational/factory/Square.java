@@ -1,2 +1,15 @@
-package creational.factory;public class Square {
+package creational.factory;
+
+public class Square implements Shape{
+    @Override
+    public void draw() {
+        System.out.println("Draw method from Square");
+    }
+
+    @Override
+    public int calculateArea() {
+        return 3;
+    }
+
+
 }

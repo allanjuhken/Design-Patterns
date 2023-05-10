@@ -1,6 +1,7 @@
 package structural.adapter;
+
 //Using the adapter example that we implemented, lets have a new adapter class and support avi format.
-public class AviPlayer implements AdvancedMediaPlayer{
+public class AviPlayer implements AdvancedMediaPlayer {
 
     @Override
     public void playVlc(String fileName) {

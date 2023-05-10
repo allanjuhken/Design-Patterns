@@ -1,4 +1,4 @@
-package design_pattern.creational.prototype;
+package creational.prototype;
 
 public class Rectangle extends Shape {
 

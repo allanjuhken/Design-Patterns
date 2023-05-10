@@ -1,4 +1,4 @@
-package singleton;
+package creational.singleton;
 
 public class SimpleSingleton {
     private  static SimpleSingleton instance;
