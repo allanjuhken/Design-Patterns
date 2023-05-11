@@ -4,60 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4219ce6-4af1-40a0-b118-879c1c526f78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/CoffeePurchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/Cola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/ColaPurchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/DrinkPurchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/EmployeeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/CarDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/GoldCarDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/MiniCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/RacingCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/exercise/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/exercise/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/exercise/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/exercise/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/DeliveryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/OrderFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/ProductAvailabilityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/ShapeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b4219ce6-4af1-40a0-b118-879c1c526f78" name="Changes" comment="bookingExample and proxy added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/AbstractLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/BreakFastOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/ChainBatternMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/ConsoleLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/ErrorLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/ExceptionLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/BreakFastOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/CookingStuff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/LunchOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/AndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/InterpreterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/NotExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/OrExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/TerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/NameIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/NameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/exercise/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/exercise/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/exercise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/exercise/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/exercise/UserIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/exercise/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/ChatMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/ChatMediatorImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/UserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/FileWriterCareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/FileWriterClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/FileWriterUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/Memento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/builder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/builder/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/builder/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/ShapeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/game/BoardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/game/BoardGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/game/GameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/game/GameFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/game/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/game/PCGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/game/PCGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/prototype/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/prototype/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/prototype/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/prototype/ShapeCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/ShapeCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/prototype/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/singleton/SimpleSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/SimpleSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adapter/AviPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/AviPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adapter/Mp4Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/Mp4Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adapter/VlcPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/VlcPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +74,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Academy/creationalTeacher",
+    "last_opened_file_path": "C:/Academy/CatClub",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -97,7 +82,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="behavioral.memento" />
+      <recent name="behavioral.mediator" />
+      <recent name="behavioral" />
       <recent name="structural.facade" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Academy\Design-Patterns\src\main\java\behavioral\chain_of_responsibility" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Academy\Design-Patterns\src\main\java\structural\proxy" />
@@ -107,13 +98,13 @@
       <recent name="creational.prototype" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainMenu">
-    <configuration name="AdapterPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.adapter.adapter.AdapterPatternDemo" />
+  <component name="RunManager" selected="Application.ChatClient">
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.mediator.ChatClient" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.adapter.adapter.*" />
+          <option name="PATTERN" value="behavioral.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.flyweight.Main" />
+    <configuration name="FileWriterClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.memento.FileWriterClient" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.flyweight.*" />
+          <option name="PATTERN" value="behavioral.memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="structural.decorator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.decorator.Main" />
+    <configuration name="behavioral.iterator.exercise.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.iterator.exercise.Main" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.decorator.*" />
+          <option name="PATTERN" value="behavioral.iterator.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatClient" />
+        <item itemvalue="Application.FileWriterClient" />
+        <item itemvalue="Application.behavioral.iterator.exercise.Main" />
         <item itemvalue="Application.MainMenu" />
         <item itemvalue="Application.EmployeeMain" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.structural.decorator.Main" />
-        <item itemvalue="Application.structural.adapter.AdapterPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +183,19 @@
       <option name="presentableId" value="Default" />
       <updated>1683644731803</updated>
     </task>
+    <task id="LOCAL−00001" summary="structural patterns added">
+      <created>1683747596351</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1683747596351</updated>
+    </task>
+    <task id="LOCAL−00002" summary="bookingExample and proxy added">
+      <created>1683747741839</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1683747741839</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,5 +208,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="structural patterns added" />
+    <MESSAGE value="bookingExample and proxy added" />
+    <option name="LAST_COMMIT_MESSAGE" value="bookingExample and proxy added" />
   </component>
 </project>
