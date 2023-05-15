@@ -4,44 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4219ce6-4af1-40a0-b118-879c1c526f78" name="Changes" comment="bookingExample and proxy added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/AbstractLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/BreakFastOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/ChainBatternMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/ErrorLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/ExceptionLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/BreakFastOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/CookingStuff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/LunchOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/command/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/AndExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/InterpreterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/NotExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/OrExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/interpreter/TerminalExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/NameIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/NameRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/exercise/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/exercise/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/exercise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/exercise/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/exercise/UserIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/exercise/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/ChatMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/ChatMediatorImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/UserImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/FileWriterCareTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/FileWriterClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/FileWriterUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/Memento.java" afterDir="false" />
+    <list default="true" id="b4219ce6-4af1-40a0-b118-879c1c526f78" name="Changes" comment="behavioral patterns added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/MyTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/MyTopicSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/TVContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/TVRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/TVStartState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/TvStopState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/TvSwitchState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/TvVolumeState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/CompressionContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/CompressionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/MyCustomizedCompressionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/RarCompressionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/SevenCompressionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/ZipCompressionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/template/Basketball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/template/Football.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/template/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/template/Icehockey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/template/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/template/Tennis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/template/Volleyball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/AreaVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/ShapeVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,17 +65,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Academy/CatClub",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Academy&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="behavioral.memento" />
@@ -98,13 +94,13 @@
       <recent name="creational.prototype" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChatClient">
-    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.mediator.ChatClient" />
+  <component name="RunManager" selected="Application.behavioral.observer.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.template.Main" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.mediator.*" />
+          <option name="PATTERN" value="behavioral.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.composite.EmployeeMain" />
+    <configuration name="TVRemote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.state.TVRemote" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.composite.*" />
+          <option name="PATTERN" value="behavioral.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileWriterClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.memento.FileWriterClient" />
+    <configuration name="behavioral.observer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.observer.Main" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.memento.*" />
+          <option name="PATTERN" value="behavioral.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.exercise.MainMenu" />
+    <configuration name="behavioral.strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.strategy.Main" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.exercise.*" />
+          <option name="PATTERN" value="behavioral.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="behavioral.iterator.exercise.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.iterator.exercise.Main" />
+    <configuration name="behavioral.visitor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.visitor.Main" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.iterator.exercise.*" />
+          <option name="PATTERN" value="behavioral.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChatClient" />
-        <item itemvalue="Application.FileWriterClient" />
-        <item itemvalue="Application.behavioral.iterator.exercise.Main" />
-        <item itemvalue="Application.MainMenu" />
-        <item itemvalue="Application.EmployeeMain" />
+        <item itemvalue="Application.behavioral.observer.Main" />
+        <item itemvalue="Application.TVRemote" />
+        <item itemvalue="Application.behavioral.strategy.Main" />
+        <item itemvalue="Application.behavioral.visitor.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +191,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1683747741839</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="behavioral patterns added">
+      <created>1683839250486</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1683839250486</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +214,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="structural patterns added" />
     <MESSAGE value="bookingExample and proxy added" />
-    <option name="LAST_COMMIT_MESSAGE" value="bookingExample and proxy added" />
+    <MESSAGE value="behavioral patterns added" />
+    <option name="LAST_COMMIT_MESSAGE" value="behavioral patterns added" />
   </component>
 </project>
